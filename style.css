@@ -1,6 +1,6 @@
 #navbar a {
 	text-decoration: none !important;
-	color: black;
+	color: white;
 }
 #navbar a:hover {
 	color: pink;
@@ -8,7 +8,7 @@
 #navbar ul {
 	font-size: 20px;
 	list-style-type: none;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 #navbar li {
 	display: inline;
@@ -17,12 +17,33 @@
 }
 #navbar ul ul {
 	position: absolute;
-	left: 0;
-	top: 100%;
+	left: 10%;
+	top: 87%;
 	display: none;
-	margin-left: -40px;
     font-size: smaller;
+    border: solid;
+    background: white;
+    padding-left: 0;
+    width: 120px;
 }
 #navbar li:hover ul {
 	display: block;
+}
+#header {
+	border-bottom: solid;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	background: #a3ef4c;
+	color: white;
+
+}
+h1 {
+	padding-top: 5px;
+	font-weight: bold;
+}	
+#image {
+	background-image: url(./img/frontpage1.jpg);
+	height: 768px;
+	background-repeat: no-repeat;
+	margin-top: -5px;
 }
