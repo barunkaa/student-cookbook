@@ -21,7 +21,7 @@
     top: 97%;
     display: none;
     font-size: 90%;
-    background: #a3ef4c;
+    background: #83bb6a;
     padding-left: 0;
     padding-top: 10px;
     margin: 0;
@@ -31,11 +31,12 @@
 }
 #navbar li:hover ul {
 	display: block;
+	box-shadow-bottom: 5px rgba(0,0,0,0.2);
 }
 #header {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
-	background: #a3ef4c;
+	background: #83bb6a;
 	color: white;
 	box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
 
@@ -48,7 +49,7 @@ h1 {
 	/*background-image: url(./img/frontpage2.jpg);*/
 	height: 768px;
 	background-repeat: no-repeat;
-	margin-top: -3px;
+	margin-top: 0px;
 	opacity: 0.7;
 }
 #image.col-md-12 {
@@ -56,12 +57,15 @@ h1 {
 }
 
 #content {
-	background: #ccff99;
+	background: #cff7bd;
 	position: relative;
 	box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
 }
 h2 {
 	text-align: center;
+	margin: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
 }
 
 #contentimage {
@@ -74,20 +78,25 @@ h2 {
 
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     float: left;
     width: 300px;
     border-radius: 20px;
-    background: #ccff99;
+    background: #cff7bd;
     margin:35px;
 }
 
 div.gallery:hover {
     border: 1px solid #777;
+	text-decoration: bold;
+}
+
+div.gallery a {
+	text-decoration: none;
 }
 
 div.gallery img {
-    width: 300px;
+    width: 100%;
     height: 300px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -97,4 +106,18 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.description{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(184, 181, 180, 0.5);
+}
+
+.ingredients{
+	border: solid 1px red;
 }
