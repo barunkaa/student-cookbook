@@ -70,7 +70,7 @@ h2 {
 
 #contentimage {
 	border-radius: 50px;
-	max-width: 500px;
+	max-width: 47%;
 	max-height: 350px;
 	object-fit: cover;
 	position: left;
@@ -119,5 +119,31 @@ div.desc {
 }
 
 .ingredients{
-	border: solid 1px red;
+	border: solid 1px;
+	width: 47%;
+	background-color: ghostwhite;
+	position: relative;
+	position: relative;
+    top: -312px;
+    right: -51%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.method {
+	border: solid 1px;
+	width: 47%;
+	background-color: ghostwhite;
+	position: relative;
+	position: relative;
+    top: -312px;
+    right: -51%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.btn {
+	width: 47%;
+	margin-left: 40px;
+	vertical-align: top;
 }
